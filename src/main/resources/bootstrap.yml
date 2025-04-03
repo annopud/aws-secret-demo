@@ -11,7 +11,7 @@ aws:
     fail-fast: false
     profile-separator: "---"
     name: testxxxxxxx
-    region: us-east-1
+    region:
 
 
 
