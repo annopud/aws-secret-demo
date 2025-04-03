@@ -1,0 +1,5 @@
+spring:
+  config:
+    import: optional:aws-secretsmanager:/secret/application-dev;
+my_user: ${secretuser}
+my_password: ${secretpassword}

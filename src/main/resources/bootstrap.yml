@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: aws-secret-demo
+  profiles:
+    active: dev
+aws:
+  secretsmanager:
+    enabled: true
+    prefix: /default.secret
+    default-context: default.application
+    fail-fast: false
+    profile-separator: "---"
+    name: testxxxxxxx
+    region: us-east-1
+
+
+
+#  /default_secret/testxxxxxxx---dev
+#  /default_secret/testxxxxxxx
+#  /default_secret/default_application---dev
+#  /default_secret/default_application
