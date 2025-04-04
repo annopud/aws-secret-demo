@@ -13,9 +13,8 @@ aws:
     name: testxxxxxxx
     region:
 
-
-
-#  /default_secret/testxxxxxxx---dev
-#  /default_secret/testxxxxxxx
-#  /default_secret/default_application---dev
-#  /default_secret/default_application
+#  Ex. Secret name pattern
+#  /default.secret/testxxxxxxx---dev
+#  /default.secret/testxxxxxxx
+#  /default.secret/default.application---dev
+#  /default.secret/default.application
